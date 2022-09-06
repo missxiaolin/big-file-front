@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import FileUpload from "../views/FileUpload";
+import VideoVerify from '../views/videoPersonVerify.vue'
 
 Vue.use(VueRouter)
 
@@ -9,6 +10,11 @@ const routes = [
     path: '/',
     name: 'FileUpload',
     component: FileUpload
+  },
+  {
+    path: '/VideoVerify',
+    name: 'VideoVerify',
+    component: VideoVerify
   }
 ]
 
