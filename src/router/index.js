@@ -18,7 +18,7 @@ const routes = [
     component: VideoVerify
   },
   {
-    path: 'tracking',
+    path: '/tracking',
     name: 'Tracking',
     component: Tracking
   }
